@@ -1,0 +1,1 @@
+export const findWords = (string: string) => string.replace(/[\.,:;-]/g, '').split(' ').filter(e => e.toLowerCase()[0] == '#')

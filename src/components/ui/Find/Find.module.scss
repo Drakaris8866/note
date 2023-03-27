@@ -1,0 +1,19 @@
+.content{
+  position: relative;
+  .find{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  .icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 80%;
+    width: 18px;
+    opacity: 0.6;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
